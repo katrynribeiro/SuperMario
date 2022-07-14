@@ -33,7 +33,6 @@ const loop = setInterval(() => {
         mario.style.marginLeft = '50px'
 
         gameOver.play();
-
         gameSound.pause();
 
         clearInterval(loop);
